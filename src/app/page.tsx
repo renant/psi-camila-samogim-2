@@ -20,7 +20,7 @@ export default function Page() {
           <h1 className='text-4xl mb-2 mt-6'>Psicóloga</h1>
         </div>
         <div className='flex flex-row '>
-          <h5 className='md:basis-10/12 md:text-lg text-sm font-thin'>Eu sou especializada em crianças, com formação em Análise do Comportamento aplicada ao Transtorno do Espectro Autista e Deficiência pela CBI of Miami. Atendo em Jundiaí e região, oferecendo acompanhamento psicológico infantil e orientação para pais.</h5>
+          <h5 className='md:basis-10/12 md:text-lg text-sm font-thin'>Especializada em crianças, com formação em Análise do Comportamento aplicada ao Transtorno do Espectro Autista e Deficiência pela CBI of Miami. Atendo em Jundiaí e região, oferecendo acompanhamento psicológico infantil e orientação para pais.</h5>
         </div>
         <div className='flex flex-row mt-2'>
           <a className='mr-2' href="https://api.whatsapp.com/send?phone=5511914175676"
