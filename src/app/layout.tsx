@@ -7,6 +7,12 @@ import './globals.css';
 export const metadata = {
   title: 'Psi Camila Samogim',
   description: 'Site da Psicóloga Camila Samogim',
+  icons: {
+    icon: '/icon.png',
+  },
+  openGraph: {
+    images: '/og-image.png',
+  },
 }
 
 export default function RootLayout({
