@@ -1,6 +1,6 @@
 ---
 title: 'O que é terapia em grupo?'
-date: '2022-04-23'
+date: '2023-04-24'
 resume: 'Terapia em grupo para crianças e adolescentes: benefícios e escolha de grupo.'
 ---
 
