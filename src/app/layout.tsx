@@ -1,4 +1,5 @@
 
+import { Analytics } from '@vercel/analytics/react';
 import Image from 'next/image';
 import bg from '../../public/bg.jpg';
 import Header from './components/Header';
@@ -40,6 +41,7 @@ export default function RootLayout({
           {children}
         </div>
       </body>
+      <Analytics />
     </html>
 
 
