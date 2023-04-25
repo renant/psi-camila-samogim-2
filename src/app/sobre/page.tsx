@@ -50,7 +50,7 @@ export default function Sobre() {
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="https://www.instagram.com/psicamilasamogim/" icon={FaWhatsapp}>
+            <SocialLink href="https://api.whatsapp.com/send?phone=5511914175676" icon={FaWhatsapp}>
               Entre em contato comigo
             </SocialLink>
             <SocialLink href="https://www.instagram.com/psicamilasamogim/" icon={FaInstagram}>
