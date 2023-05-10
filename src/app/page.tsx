@@ -17,7 +17,7 @@ export default function Page() {
           </div>
         </div>
         <div>
-          <h1 className='text-4xl mb-2 mt-6'>Psicóloga</h1>
+          <h1 className='text-4xl mb-2 mt-6'>Psicóloga Infantil e Juvenil</h1>
         </div>
         <div className='flex flex-row '>
           <h5 className='md:basis-10/12 md:text-lg text-sm font-thin'>Especializada em crianças e adolescentes, com formação em Análise do Comportamento aplicada ao Transtorno do Espectro Autista e Deficiência pela CBI of Miami. Atendo em Jundiaí e região, oferecendo acompanhamento psicológico infantil-juvenil e orientação para pais.</h5>
