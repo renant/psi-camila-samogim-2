@@ -25,7 +25,7 @@ export default function Header() {
               Sobre
             </Link>
             <Link href="/espaco" className="text-pink-500 hover:text-pink-600 no-underline">
-              Consutório
+              Consultório
             </Link>
             <Link href="/lojinha" className="text-pink-500 hover:text-pink-600 no-underline">
               Lojinha

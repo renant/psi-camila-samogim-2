@@ -38,7 +38,7 @@ export default function Espaco() {
 
       <div className=" text-base text-black-600 items-center">
         <h1 className="text-4xl font-bold tracking-tight text-pink-400 sm:text-5xl text-center mb-1">
-          Meu Consutório
+          Meu Consultório
         </h1>
         <div className="flex flex-col md:ml-10 md:px-10 md:py-20">
           <div className="flex flex-col md:grid md:grid-cols-2 md:grid-rows-1 md:gap-4 md:mb-6">
