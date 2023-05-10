@@ -36,13 +36,13 @@ export default function Espaco() {
   return (
     <>
 
-      <div className="mb-16 text-base text-black-600 items-center">
+      <div className=" text-base text-black-600 items-center">
         <h1 className="text-4xl font-bold tracking-tight text-pink-400 sm:text-5xl text-center mb-1">
           Meu Consutório
         </h1>
-        <div className="flex flex-col md:ml-10 px-10 py-20">
+        <div className="flex flex-col md:ml-10 md:px-10 md:py-20">
           <div className="flex flex-col md:grid md:grid-cols-2 md:grid-rows-1 md:gap-4 md:mb-6">
-            <div className="m-auto">
+            <div className="mb-10 md:mb-0 m-auto">
               <Image
                 src='/espaco/9.jpg'
                 width={250}
@@ -51,17 +51,17 @@ export default function Espaco() {
                 className="aspect-square  rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
               />
             </div>
-            <div className="m-auto text-justify px-10">
+            <div className="mb-10 md:mb-0 m-auto text-justify px-10">
               <p>Meu espaço foi pensado e planejado com muito carinho para acolher todas as famílias!</p>
               <p>O consultório fica localizado no Edifício Golden Office, na cidade de Jundiaí/SP.</p>
             </div>
           </div>
           <div className="flex flex-col-reverse md:grid md:grid-cols-2 md:grid-rows-1 md:gap-4 md:mb-6">
-            <div className="m-auto text-justify px-10">
+            <div className="mb-10 md:mb-0 m-auto text-justify px-10">
               <p>A sala é equipada com materiais psicopedagogicos, brinquedos, livros, e diversos outros recursos que são utilizados em nossos atendimentos!</p>
               <p>O espaço possui uma recepção com cantinho do café, para que as famílias possam esperar em um local aconchegante!</p>
             </div>
-            <div className="m-auto">
+            <div className="mb-10 md:mb-0 m-auto">
               <Image
                 src='/espaco/3.jpeg'
                 width={250}
@@ -72,7 +72,7 @@ export default function Espaco() {
             </div>
           </div>
           <div className="flex flex-col md:grid md:grid-cols-2 md:grid-rows-1 md:gap-4 md:mb-6">
-            <div className="m-auto">
+            <div className="mb-10 md:mb-0 m-auto">
               <Image
                 src='/espaco/6.jpeg'
                 width={250}
@@ -81,13 +81,13 @@ export default function Espaco() {
                 className="aspect-square  rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
               />
             </div>
-            <div className="m-auto text-justify px-10">
+            <div className="mb-10 md:mb-0 m-auto text-justify px-10">
               <p>Também possuímos banheiro e uma pequena copa, utilizada também como recurso de algumas terapias!</p>
               <p>Venha conhecer o espaço e tomar um café comigo!</p>
             </div>
           </div>
         </div>
-        <div className='prose prose-sm max-w-none px-10'>
+        <div className='prose prose-sm max-w-none md:px-10'>
           <h2 className='text-center'>Confira de perto meu espaço</h2>
           <h5 className='text-center'>clique para ampliar as fotos</h5>
           <div className='mt-2 flex flex-wrap m-auto justify-center md:gap-4 gap-2'>
