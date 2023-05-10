@@ -23,13 +23,13 @@ export default async function Page() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <h3 className="text-lg md:text-xl font-semibold ">
+                <h3 className="text-md md:text-xl font-semibold ">
                   {produto.nome}
                 </h3>
-                <h4 className="text-sm font-extralight opacity-60 mb-2">
+                <h4 className="md:text-sm text-xs font-extralight opacity-60 mb-2">
                   {produto.nomeLoja}
                 </h4>
-                <p className="text-base loja-text-max">{produto.descricao}</p>
+                <p className="md:text-base text-sm loja-text-max">{produto.descricao}</p>
               </a>
             ))}
         </div>
