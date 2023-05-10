@@ -5,10 +5,11 @@ import './globals.css';
 
 export const metadata = {
   title: 'Psi Camila Samogim',
-  description: 'Psicóloga Infantil e Juvenil',
+  description: 'Especializada em crianças e adolescentes, com formação em Análise do Comportamento aplicada ao Transtorno do Espectro Autista e Deficiência pela CBI of Miami. Atendo em Jundiaí e região, oferecendo acompanhamento psicológico para crianças, adolescentes e orientação de pais.',
   icons: {
     icon: '/icon.png',
   },
+
   openGraph: {
     images: '/og-image.png',
   },
