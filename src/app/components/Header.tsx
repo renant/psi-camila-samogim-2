@@ -18,6 +18,9 @@ export default function Header() {
             <Link href="/sobre" className="text-pink-500 hover:text-pink-600 no-underline">
               Sobre
             </Link>
+            <Link href="/espaco" className="text-pink-500 hover:text-pink-600 no-underline">
+              Espaço
+            </Link>
             <Link href="/lojinha" className="text-pink-500 hover:text-pink-600 no-underline">
               Lojinha
             </Link>

@@ -3,7 +3,7 @@ import { getProducts } from "../lib/products.";
 export function generateMetadata() {
   return {
     title: 'Lojinha',
-    description: 'Lojinha do site',
+    description: 'Lojinha da Psi Camila Samogim',
   };
 }
 

@@ -8,6 +8,24 @@ export function generateStaticParams() {
   }))
 }
 
+export function generateMetadata({ params }: { params: { productId: string } }) {
+  var products = getProducts();
+  const { productId } = params;
+  const product = products.find((product) => product.id === productId);
+
+  if (!product) {
+    return {
+      title: "Produto não encontrado",
+      description: "Produto não encontrado"
+    }
+  }
+
+  return {
+    title: product.nome,
+    description: product.descricao
+  }
+}
+
 export const revalidate = 3600;
 
 export default async function Page({ params }: { params: { productId: string } }) {

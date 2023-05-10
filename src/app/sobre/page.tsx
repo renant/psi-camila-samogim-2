@@ -1,5 +1,12 @@
 import { FaInstagram, FaLinkedin, FaMailBulk, FaWhatsapp } from 'react-icons/fa';
 
+export function generateMetadata() {
+  return {
+    title: "Sobre",
+    description: "Tudo sobre a Psi Camila Samogim"
+  }
+}
+
 function SocialLink({ href, children, icon: Icon }: any) {
   return (
     <li className='mb-4'>
@@ -15,8 +22,15 @@ export default function Sobre() {
   return (
     <div className="mt-16 sm:mt-32 mb-16">
       <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
-        <div className="lg:pl-20">
+        <div className="lg:pl-20 flex flex-row justify-center items-center">
           <div className="max-w-xs px-2.5 lg:max-w-none">
+            {/* <Image
+              src={profile}
+              width={400}
+              height={400}
+              alt=""
+              className="aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
+            /> */}
 
             <video autoPlay loop className='aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800'>
               <source src="/video.mp4" />
