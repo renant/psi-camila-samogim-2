@@ -23,7 +23,7 @@ export default function Sobre() {
     <div className="mb-16">
       <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
         <div className="lg:pl-20 flex flex-row justify-center items-center">
-          <div className="max-w-xs px-2.5 lg:max-w-none">
+          <div className="max-w-xs px-2.5 lg:max-w-md md:w-96">
             {/* <Image
               src={profile}
               width={400}
@@ -42,7 +42,7 @@ export default function Sobre() {
           <h1 className="text-4xl font-bold tracking-tight text-pink-400 sm:text-5xl">
             Eu sou Camila Samogim, prazer!
           </h1>
-          <div className="mt-6 space-y-7 text-base text-black-600">
+          <div className="mt-6 space-y-7 text-base text-black-600 text-justify">
             <p>
               Sou formada em Psicologia pelo Anchieta, em Jundiaí. Durante a minha graduação, percebi minha paixão pelo trabalho com crianças e decidi me especializar nessa área. Atualmente, estou realizando uma Pós-graduação em Análise do Comportamento aplicada ao Transtorno do Espectro Autista e Deficiência pela CBI of Miami, com o objetivo de aprimorar ainda mais meu conhecimento e habilidades para ajudar as crianças com necessidades especiais.
             </p>
