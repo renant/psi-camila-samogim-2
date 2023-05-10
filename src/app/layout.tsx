@@ -1,7 +1,5 @@
 
 import { Analytics } from '@vercel/analytics/react';
-import Image from 'next/image';
-import bg from '../../public/bg.jpg';
 import Header from './components/Header';
 import './globals.css';
 
@@ -24,8 +22,8 @@ export default function RootLayout({
   return (
 
     <html lang="en">
-      <body>
-        <div>
+      <body className='bg-pink-50 scrollable'>
+        {/* <div>
           <Image
             className="opacity-10 bg-cover -z-30 bgWrap"
             alt="Mountains"
@@ -34,10 +32,10 @@ export default function RootLayout({
             fill={true}
             quality={20}
           />
-        </div>
+        </div> */}
 
         <Header />
-        <div className='mx-auto max-w-4xl md:px-4 p px-12 bg-pink-100 scrollable'>
+        <div className='mx-auto max-w-6xl md:px-6 px-12 py-10 md:py-12 bg-pink-100'>
           {children}
         </div>
       </body>

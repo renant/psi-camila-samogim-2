@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header>
-      <nav className="bg-red-100 prose prose-xl max-w-4xl mx-auto flex justify-between flex-col sm:flex-row">
+      <nav className="bg-red-100 prose prose-sm md:prose-xl max-w-6xl mx-auto flex justify-between flex-col sm:flex-row">
         <div>
           {/* <Link href="/">teste</Link> */}
         </div>
@@ -19,7 +19,7 @@ export default function Header() {
               Sobre
             </Link>
             <Link href="/espaco" className="text-pink-500 hover:text-pink-600 no-underline">
-              Espaço
+              Consutório
             </Link>
             <Link href="/lojinha" className="text-pink-500 hover:text-pink-600 no-underline">
               Lojinha

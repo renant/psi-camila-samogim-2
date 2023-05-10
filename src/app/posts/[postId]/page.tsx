@@ -43,7 +43,7 @@ export default async function Page({ params }: { params: { postId: string } }) {
   const pubDate = getFormattedDate(date);
 
   return (
-    <main className="px-6 prose md:prose-xl prose-pink prose-sm mt-2">
+    <main className="px-6 prose md:prose-xl prose-pink prose-sm">
       <h1>{title}</h1>
       <p>{pubDate}</p>
       <article>
