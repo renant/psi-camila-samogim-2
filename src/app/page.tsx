@@ -9,11 +9,7 @@ export default function Page() {
   return (
     <>
       <div className="flex flex-col  md:items-start items-center">
-        {/* <div className='flex flex-col'>
-          <div className='w-36 pt-2'>
-            <Image src={logo} alt="Logo da Psicologa Camila Samogim" />
-          </div>
-        </div> */}
+
         <div>
           <h1 className='text-4xl mb-2'>Psicóloga Infantil e Juvenil</h1>
         </div>

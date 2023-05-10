@@ -11,17 +11,19 @@ export default function ListItem({ post }: Props) {
 
   return (
     <Link className="flex" href={`/posts/${id}`}>
-      <div className="rounded-xl border p-5 shadow-sm bg-pink-50 hover:bg-slate-100 flex-1">
-        <div className="flex w-full items-center justify-between border-b border-pink-500 pb-3">
-          <div className="text-lg font-bold text-slate-700">
+      <div className="rounded-xl border p-5 shadow-sm bg-pink-50 hover:bg-slate-100 flex-1 flex flex-col justify-between">
+        <div className="flex items-center pb-3">
+          <h5 className="text-lg md:text-base font-bold text-slate-700">
             {title}
-          </div>
+          </h5>
         </div>
-        <div>
+        <div className="flex flex-col flex-1 border-t border-pink-500">
           <p className="text-sm text-neutral-600 font-extralight">{resume}</p>
-          <div>
-            <span className="h-4 w-0.5 rounded-full text-pink-400">|</span>
-            <small className="ml-4 text-gray-500 font-light">{formattedDate}</small>
+          <div className="flex-1 flex flex-col justify-end">
+            <div>
+              <span className="h-4 w-0.5 rounded-full text-pink-400">|</span>
+              <small className="ml-4 text-gray-500 font-light ">{formattedDate}</small>
+            </div>
           </div>
         </div>
       </div>
