@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { getSortedPostsData } from './lib/posts';
+import { getProducts } from './lib/products.';
 
 const mainRoutes = 'https://psicamilasamogim.com';
 
@@ -13,6 +14,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
+  const products = getProducts();
+
+  const productsRoutes = products.map((post) => {
+    return {
+      url: `${mainRoutes}/lojinha/${post.id}`,
+      lastModified: new Date().toISOString(),
+    };
+  });
+
   const routes = ['', '/sobre', '/posts', '/lojinha', '/espaco'].map((route) => {
     return {
       url: `${mainRoutes}${route}`,
@@ -20,5 +30,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  return [...routes, ...postRoutes]
+  return [...routes, ...postRoutes, ...productsRoutes]
 }
