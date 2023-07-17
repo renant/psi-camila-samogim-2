@@ -80,19 +80,45 @@ export default function Page() {
         <div className='prose prose-sm max-w-none md:px-10'>
           <h2 className='text-center text-pink-400'>Confira de perto meu espaço</h2>
         </div>
-        <div className="flex flex-col md:flex-row md:justify-center md:items-center mt-4 md:mt-10 px-4">
-          <div className="flex flex-col">
-            <div className="prose prose-md flex flex-col text-justify">
-              <p className='mb-0'>Meu espaço foi pensado e planejado com muito carinho para acolher todas as famílias!</p>
-              <p className='mb-0'>O consultório fica localizado no Edifício Golden Office, na cidade de Jundiaí/SP.</p>
-              <p className='mb-0'>A sala é equipada com materiais psicopedagogicos, brinquedos, livros, e diversos outros recursos que são utilizados em nossos atendimentos!</p>
-              <p className='mb-0'>O espaço possui uma recepção com cantinho do café, para que as famílias possam esperar em um local aconchegante!</p>
-              <p className='mb-0'>Também possuímos banheiro e uma pequena copa, utilizada também como recurso de algumas terapias!</p>
-              <p className='mb-0'>Venha conhecer o espaço e tomar um café comigo!</p>
+        <div className="flex flex-col md:flex-row md:justify-center  mt-4 md:mt-10 px-4">
+
+          <div className="prose prose-md flex flex-col text-justify">
+            <p className='mb-0'>Meu espaço foi pensado e planejado com muito carinho para acolher todas as famílias!</p>
+            <p className='mb-0'>O consultório fica localizado no Edifício Golden Office, na cidade de Jundiaí/SP.</p>
+            <p className='mb-0'>A sala é equipada com materiais psicopedagogicos, brinquedos, livros, e diversos outros recursos que são utilizados em nossos atendimentos!</p>
+            <p className='mb-0'>O espaço possui uma recepção com cantinho do café, para que as famílias possam esperar em um local aconchegante!</p>
+            <p className='mb-0'>Também possuímos banheiro e uma pequena copa, utilizada também como recurso de algumas terapias!</p>
+            <p className='mb-0'>Venha conhecer o espaço e tomar um café comigo!</p>
+
+            <div className='hidden flex-col justify-end flex-1 mt-auto md:flex'>
+              <h3 className="text-3xl font-bold text-pink-800 md:text-4xl mb-0 ">Saiba como posso te ajudar</h3>
+              <p className="text-pink-500 m-0">Entre em contato agora mesmo</p>
+              <a
+                href="https://api.whatsapp.com/send?phone=5511914175676"
+                type="button"
+                className="border border-pink-500 bg-pink-500 text-white text-center rounded-md py-2 transition duration-500 ease select-none hover:bg-pink-600 focus:outline-none focus:shadow-outline"
+              >
+                FALE COMIGO!
+              </a>
+
             </div>
           </div>
-          <div className='prose prose-sm max-w-none mt-5 md:mt-0 md:w-2/3'>
+
+          <div className='prose prose-sm max-w-none mt-5 md:mt-0 md:w-1/2 md:ml-4'>
             <Galery />
+          </div>
+
+          <div className='flex flex-col justify-end flex-1 md:hidden mt-10'>
+            <h3 className="text-3xl font-bold text-pink-800 md:text-4xl mb-0 ">Saiba como posso te ajudar</h3>
+            <p className="text-pink-500 m-0">Entre em contato agora mesmo</p>
+            <a
+              href="https://api.whatsapp.com/send?phone=5511914175676"
+              type="button"
+              className="border border-pink-500 bg-pink-500 text-white text-center rounded-md py-2 transition duration-500 ease select-none hover:bg-pink-600 focus:outline-none focus:shadow-outline"
+            >
+              FALE COMIGO!
+            </a>
+
           </div>
         </div>
       </div>
