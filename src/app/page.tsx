@@ -22,7 +22,7 @@ export default function Page() {
         <div className="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
           <div className="lg:pl-20 flex flex-row justify-center items-center">
             <div className="max-w-xs px-2.5 lg:max-w-md md:w-96">
-              <video autoPlay loop className='aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800'>
+              <video autoPlay muted loop className='aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800'>
                 <source src="/video.mp4" />
               </video>
             </div>
