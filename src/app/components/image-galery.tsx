@@ -33,23 +33,21 @@ export default function Galery() {
   };
 
   return (
-    <div className='prose prose-sm max-w-none md:px-10'>
-      <h2 className='text-center'>Confira de perto meu espaço</h2>
-      <h5 className='text-center'>clique para ampliar as fotos</h5>
-      <div className='mt-2 flex flex-wrap m-auto justify-center md:gap-4 gap-2'>
-        {images.map((src, index) => (
-          <Image
-            className='hover:opacity-30 cursor-pointer spect-square  rounded-2xl'
-            src={src}
-            onClick={() => openImageViewer(index)}
-            width={130}
-            height={130}
-            key={index}
-            style={{ margin: "2px" }}
-            alt=""
-          />
-        ))}
-      </div>
+
+    <div className='mt-2 flex flex-wrap m-auto justify-center md:gap-4 gap-2'>
+      {images.map((src, index) => (
+        <Image
+          className='hover:opacity-30 cursor-pointer spect-square  rounded-2xl'
+          src={src}
+          onClick={() => openImageViewer(index)}
+          width={130}
+          height={130}
+          key={index}
+          style={{ margin: "2px" }}
+          alt=""
+        />
+      ))}
+
 
       {isViewerOpen && (
         <ImageViewer

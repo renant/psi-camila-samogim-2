@@ -1,3 +1,5 @@
+
+
 import fs from 'fs';
 import matter from 'gray-matter';
 import path from 'path';
@@ -27,6 +29,12 @@ export function getSortedPostsData() {
   });
 
   return allPostsData.sort((a, b) => a.date < b.date ? 1 : -1);
+}
+
+export function getLastFourPosts() {
+  var allPostsData = getSortedPostsData();
+
+  return allPostsData.slice(0, 4);
 }
 
 export async function getPostData(id: string) {

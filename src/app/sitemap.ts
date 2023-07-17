@@ -23,7 +23,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     };
   });
 
-  const routes = ['', '/sobre', '/posts', '/lojinha', '/espaco'].map((route) => {
+  const routes = ['','/posts', '/lojinha', '/espaco'].map((route) => {
     return {
       url: `${mainRoutes}${route}`,
       lastModified: new Date().toISOString(),
