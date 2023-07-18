@@ -126,8 +126,8 @@ export default function Page() {
               <p className='m-0 max-w-2xl text-justify'>A terapia se adapta às necessidades da criança com abordagens e técnicas flexíveis. Cada criança é única e tem demandas próprias. O terapeuta avalia e ajusta as intervenções com base nas necessidades específicas, buscando um ambiente acolhedor e estimulante.</p>
             </div>
             <div className='border-b  md:pb-2 border-pink-500 flex flex-col md:flex-row md:justify-between md:items-center mt-5 md:mt-10 pb-8'>
-              <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>Por que o envolvimento dos pais é importante no processo terapêutico?</h3>
-              <p className='m-0 max-w-2xl text-justify'>A participação dos pais na terapia é crucial, pois ajuda a entender as necessidades emocionais da criança, desenvolver estratégias para desafios e fortalecer os vínculos familiares.</p>
+              <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>Os pais precisam estar envolvidos no processo terapêutico dos filhos?</h3>
+              <p className='m-0 max-w-2xl text-justify'>A participação dos pais na terapia é crucial, primeiramente pela coleta de dados, visto que a observação da família sobre os comportamentos da criança em ambiente natural, possibilitará uma análise e intervenções mais assertivas. Além disso, o processo de psicoeducação e orientação parental é essencial para que os pais possam dar continuidade às estratégias em casa, generalizando as evoluções da criança para todos os ambientes em que frequenta.</p>
             </div>
           </div>
         </div>
