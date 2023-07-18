@@ -111,7 +111,7 @@ export default function Page() {
             </div>
             <div className='border-b  md:pb-2 border-pink-500 flex flex-col md:flex-row md:justify-between md:items-center mt-5 md:mt-10 pb-8'>
               <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>Por que a Psicologia Infanto-Juvenil é importante?</h3>
-              <p className='m-0 max-w-2xl text-justify'>A Psicologia Infanto-Juvenil é fundamental para que as crianças e adolescentes de desenvolvam de forma saudável, a fim de que, na vida adulta, sejam socialmente habilidosos e capazes de criar estratégias de resolução de problemas. Oferece suporte emocional, orientação e recursos para lidar com desafios. Melhora autoestima, habilidades sociais e desempenho acadêmico.</p>
+              <p className='m-0 max-w-2xl text-justify'>A Psicologia Infanto-Juvenil é fundamental para que as crianças e adolescentes se desenvolvam de forma saudável, a fim de que, na vida adulta, sejam socialmente habilidosos e capazes de criar estratégias de resolução de problemas. Oferece suporte emocional, orientação e recursos para lidar com desafios. Melhora autoestima, habilidades sociais e desempenho acadêmico.</p>
             </div>
             <div className='border-b  md:pb-2 border-pink-500 flex flex-col md:flex-row md:justify-between md:items-center mt-5 md:mt-10 pb-8'>
               <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>Quanto tempo dura a terapia infanto-juvenil?</h3>
