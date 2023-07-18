@@ -11,7 +11,7 @@ export default function Header() {
           <Image src={logo} alt="Logo da Psicologa Camila Samogim" />
         </div>
         <div className="md:w-0 md:h-0 md:invisible visible">
-          <Image src={logo} alt="Logo da Psicologa Camila Samogim" />
+          <Image width={100} src={logo} alt="Logo da Psicologa Camila Samogim" />
         </div>
         <div>
           <ul className="space-x-4 mr-2">
@@ -20,12 +20,6 @@ export default function Header() {
             </Link>
             <Link href="/posts" className="text-pink-500 hover:text-pink-600 no-underline">
               Posts
-            </Link>
-            <Link href="/sobre" className="text-pink-500 hover:text-pink-600 no-underline">
-              Sobre
-            </Link>
-            <Link href="/espaco" className="text-pink-500 hover:text-pink-600 no-underline">
-              Consultório
             </Link>
             <Link href="/lojinha" className="text-pink-500 hover:text-pink-600 no-underline">
               Lojinha
