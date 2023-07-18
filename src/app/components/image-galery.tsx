@@ -40,8 +40,8 @@ export default function Galery() {
           className='hover:opacity-30 cursor-pointer spect-square  rounded-2xl'
           src={src}
           onClick={() => openImageViewer(index)}
-          width={130}
-          height={130}
+          width={100}
+          height={100}
           key={index}
           style={{ margin: "2px" }}
           alt=""

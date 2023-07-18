@@ -1,5 +1,6 @@
 
 import { Analytics } from '@vercel/analytics/react';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import './globals.css';
 
@@ -40,6 +41,7 @@ export default function RootLayout({
         <div className='mx-auto max-w-6xl md:px-6 px-8 py-8 md:py-12 bg-pink-100'>
           {children}
         </div>
+        <Footer />
       </body>
       <Analytics />
     </html>

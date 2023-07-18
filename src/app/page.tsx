@@ -76,7 +76,7 @@ export default function Page() {
         <LastPosts />
       </div>
 
-      <div className=" text-base text-black-600 items-center mt-4 md:mt-10">
+      <div className="flex flex-col text-base text-black-600 items-center justify-center mt-4 md:mt-10">
         <div className='prose prose-sm max-w-none md:px-10'>
           <h2 className='text-center text-pink-400'>Confira de perto meu espaço</h2>
         </div>
@@ -90,39 +90,65 @@ export default function Page() {
             <p className='mb-0'>Também possuímos banheiro e uma pequena copa, utilizada também como recurso de algumas terapias!</p>
             <p className='mb-0'>Venha conhecer o espaço e tomar um café comigo!</p>
 
-            <div className='hidden flex-col justify-end flex-1 mt-auto md:flex'>
-              <h3 className="text-3xl font-bold text-pink-800 md:text-4xl mb-0 ">Saiba como posso te ajudar</h3>
-              <p className="text-pink-500 m-0">Entre em contato agora mesmo</p>
-              <a
-                href="https://api.whatsapp.com/send?phone=5511914175676"
-                type="button"
-                className="border border-pink-500 bg-pink-500 text-white text-center rounded-md py-2 transition duration-500 ease select-none hover:bg-pink-600 focus:outline-none focus:shadow-outline"
-              >
-                FALE COMIGO!
-              </a>
-
-            </div>
           </div>
 
           <div className='prose prose-sm max-w-none mt-5 md:mt-0 md:w-1/2 md:ml-4'>
             <Galery />
           </div>
 
-          <div className='flex flex-col justify-end flex-1 md:hidden mt-10'>
-            <h3 className="text-3xl font-bold text-pink-800 md:text-4xl mb-0 ">Saiba como posso te ajudar</h3>
-            <p className="text-pink-500 m-0">Entre em contato agora mesmo</p>
-            <a
-              href="https://api.whatsapp.com/send?phone=5511914175676"
-              type="button"
-              className="border border-pink-500 bg-pink-500 text-white text-center rounded-md py-2 transition duration-500 ease select-none hover:bg-pink-600 focus:outline-none focus:shadow-outline"
-            >
-              FALE COMIGO!
-            </a>
 
+
+
+        </div>
+
+
+        <div className='mt-5 md:mt-10 px-14 w-full'>
+          <h2 className='text-2xl leading-loose text-center text-pink-400'>Perguntas frequentes</h2>
+          <div>
+            <div className='border-b  md:pb-2 border-pink-500 flex flex-col md:flex-row md:justify-between md:items-center mt-5 md:mt-10 pb-8'>
+              <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>O que faz a Psicologia Infantil?</h3>
+              <p className='m-0 max-w-2xl text-justify'>A Psicologia Infantil estuda e trata as emoções, cognição e comportamento de crianças. Psicólogos infantis trabalham com o desenvolvimento cognitivo e emocional de crianças, utilizando técnicas terapêuticas para promover bem-estar e desenvolvimento saudável.</p>
+            </div>
+            <div className='border-b  md:pb-2 border-pink-500 flex flex-col md:flex-row md:justify-between md:items-center mt-5 md:mt-10 pb-8'>
+              <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>Por que a Psicologia Infantil é importante?</h3>
+              <p className='m-0 max-w-2xl text-justify'>A Psicologia Infantil é fundamental para crianças. Oferece suporte emocional, orientação e solução para desafios. Melhora autoestima, habilidades sociais e desempenho acadêmico. Promove relações saudáveis com familiares e amigos.</p>
+            </div>
+            <div className='border-b  md:pb-2 border-pink-500 flex flex-col md:flex-row md:justify-between md:items-center mt-5 md:mt-10 pb-8'>
+              <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>Quanto tempo dura a terapia infantil?</h3>
+              <p className='m-0 max-w-2xl text-justify'>A terapia infantil varia conforme as necessidades de cada criança. Alguns casos resolvem rapidamente, outros exigem acompanhamento prolongado. O progresso é avaliado pelo psicólogo, e a duração é decidida com os pais. A terapia é contínua, com sessões conforme as necessidades da criança.</p>
+            </div>
+            <div className='border-b  md:pb-2 border-pink-500 flex flex-col md:flex-row md:justify-between md:items-center mt-5 md:mt-10 pb-8'>
+              <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>Qual é a idade ideal para iniciar a terapia com crianças?</h3>
+              <p className='m-0 max-w-2xl text-justify'>Não há uma idade específica para iniciar a terapia com crianças, pois cada caso é único. A decisão de buscar ajuda profissional depende dos sintomas e dificuldades que a criança está enfrentando. Algumas crianças podem se beneficiar da terapia desde a primeira infância, enquanto outras podem iniciar mais tarde, quando começam a enfrentar desafios específicos.</p>
+            </div>
+            <div className='border-b  md:pb-2 border-pink-500 flex flex-col md:flex-row md:justify-between md:items-center mt-5 md:mt-10 pb-8'>
+              <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>Como a terapia pode ser adaptada às necessidades da criança?</h3>
+              <p className='m-0 max-w-2xl text-justify'>A terapia se adapta às necessidades da criança com abordagens e técnicas flexíveis. Cada criança é única e tem demandas próprias. O terapeuta avalia e ajusta as intervenções com base nas necessidades específicas, buscando um ambiente acolhedor e estimulante.</p>
+            </div>
+            <div className='border-b  md:pb-2 border-pink-500 flex flex-col md:flex-row md:justify-between md:items-center mt-5 md:mt-10 pb-8'>
+              <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>Por que o envolvimento dos pais é importante no processo terapêutico?</h3>
+              <p className='m-0 max-w-2xl text-justify'>A participação dos pais na terapia é crucial, pois ajuda a entender as necessidades emocionais da criança, desenvolver estratégias para desafios e fortalecer os vínculos familiares.</p>
+            </div>
           </div>
         </div>
-      </div>
 
+        <div className='flex flex-col mt-10 w-[500px] justify-center items-center'>
+          <div className='flex flex-col justify-end flex-1'>
+            <h3 className="text-3xl font-bold text-pink-800 md:text-4xl mb-0 ">Saiba como posso te ajudar</h3>
+            <p className="text-pink-500 m-0">Entre em contato agora mesmo</p>
+
+
+          </div>
+          <a
+            href="https://api.whatsapp.com/send?phone=5511914175676"
+            type="button"
+            className="mt-5  border border-pink-500 bg-pink-500 px-4 text-white text-center rounded-md py-2 transition duration-500 ease select-none hover:bg-pink-600 focus:outline-none focus:shadow-outline"
+          >
+            FALE COMIGO!
+          </a>
+        </div>
+
+      </div>
 
 
     </>
