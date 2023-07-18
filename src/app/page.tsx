@@ -106,20 +106,20 @@ export default function Page() {
           <h2 className='text-2xl leading-loose text-center text-pink-400'>Perguntas frequentes</h2>
           <div>
             <div className='border-b  md:pb-2 border-pink-500 flex flex-col md:flex-row md:justify-between md:items-center mt-5 md:mt-10 pb-8'>
-              <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>O que faz a Psicologia Infantil?</h3>
-              <p className='m-0 max-w-2xl text-justify'>A Psicologia Infantil estuda e trata as emoções, cognição e comportamento de crianças. Psicólogos infantis trabalham com o desenvolvimento cognitivo e emocional de crianças, utilizando técnicas terapêuticas para promover bem-estar e desenvolvimento saudável.</p>
+              <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>O que é Psicologia Infanto-Juvenil?</h3>
+              <p className='m-0 max-w-2xl text-justify'>A Psicologia Infanto-Juvenil estuda sobre emoções, cognição e comportamentos de crianças e adolescentes. Os Psicólogos utilizam técnicas e recursos lúdicos para promover bem-estar e desenvolvimento saudável para seus clientes.</p>
             </div>
             <div className='border-b  md:pb-2 border-pink-500 flex flex-col md:flex-row md:justify-between md:items-center mt-5 md:mt-10 pb-8'>
-              <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>Por que a Psicologia Infantil é importante?</h3>
-              <p className='m-0 max-w-2xl text-justify'>A Psicologia Infantil é fundamental para crianças. Oferece suporte emocional, orientação e solução para desafios. Melhora autoestima, habilidades sociais e desempenho acadêmico. Promove relações saudáveis com familiares e amigos.</p>
+              <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>Por que a Psicologia Infanto-Juvenil é importante?</h3>
+              <p className='m-0 max-w-2xl text-justify'>A Psicologia Infanto-Juvenil é fundamental para que as crianças e adolescentes de desenvolvam de forma saudável, a fim de que, na vida adulta, sejam socialmente habilidosos e capazes de criar estratégias de resolução de problemas. Oferece suporte emocional, orientação e recursos para lidar com desafios. Melhora autoestima, habilidades sociais e desempenho acadêmico.</p>
             </div>
             <div className='border-b  md:pb-2 border-pink-500 flex flex-col md:flex-row md:justify-between md:items-center mt-5 md:mt-10 pb-8'>
-              <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>Quanto tempo dura a terapia infantil?</h3>
-              <p className='m-0 max-w-2xl text-justify'>A terapia infantil varia conforme as necessidades de cada criança. Alguns casos resolvem rapidamente, outros exigem acompanhamento prolongado. O progresso é avaliado pelo psicólogo, e a duração é decidida com os pais. A terapia é contínua, com sessões conforme as necessidades da criança.</p>
+              <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>Quanto tempo dura a terapia infanto-juvenil?</h3>
+              <p className='m-0 max-w-2xl text-justify'>O tempo da terapia infanto-juvenil varia conforme as necessidades de cada criança ou adolescente. O progresso é avaliado pelo psicólogo, assim como a alta terapêutica, sendo a mesma realizada de forma gradativa. As sessões são contínuas, e geralmente ocorrem uma vez por semana.</p>
             </div>
             <div className='border-b  md:pb-2 border-pink-500 flex flex-col md:flex-row md:justify-between md:items-center mt-5 md:mt-10 pb-8'>
               <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>Qual é a idade ideal para iniciar a terapia com crianças?</h3>
-              <p className='m-0 max-w-2xl text-justify'>Não há uma idade específica para iniciar a terapia com crianças, pois cada caso é único. A decisão de buscar ajuda profissional depende dos sintomas e dificuldades que a criança está enfrentando. Algumas crianças podem se beneficiar da terapia desde a primeira infância, enquanto outras podem iniciar mais tarde, quando começam a enfrentar desafios específicos.</p>
+              <p className='m-0 max-w-2xl text-justify'>Não há uma idade específica para iniciar a terapia com crianças, pois cada caso é único. A decisão de buscar ajuda profissional depende dos sintomas e dificuldades que a criança está enfrentando. Algumas crianças podem se beneficiar da terapia desde a primeira infância, enquanto outras podem iniciar mais tarde, quando começam a enfrentar desafios específicos. Lembrando que o processo de psicoeducação e orientação de pais é inerente à psicoterapia infantil, especialmente na primeira infância.</p>
             </div>
             <div className='border-b  md:pb-2 border-pink-500 flex flex-col md:flex-row md:justify-between md:items-center mt-5 md:mt-10 pb-8'>
               <h3 className='text-pink-500 m-0 mb-2 md:mb-0 font-semibold'>Como a terapia pode ser adaptada às necessidades da criança?</h3>
