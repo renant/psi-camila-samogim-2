@@ -39,11 +39,11 @@ export default function Page() {
                 Acredito que cada criança é única e merece ser tratada de maneira individualizada, respeitando suas necessidades e particularidades. Por isso, meu trabalho é baseado em uma abordagem humanizada e centrada na criança, buscando sempre compreender suas emoções e pensamentos para poder ajudá-las da melhor forma possível.
               </p>
               <p>
-                Trabalho com crianças desde o início da minha carreira, utilizando técnicas como a terapia comportamental para ajudá-las a desenvolver habilidades sociais, emocionais e cognitivas. Além disso, busco sempre orientar as famílias e responsáveis sobre como lidar com as dificuldades enfrentadas pelas crianças e como ajudá-las a superá-las.
-              </p>
+                
+Trabalho com crianças e adolescentes desde o início da minha carreira, utilizando técnicas pela perspectiva da Análise do Comportamento para ajudá-las a desenvolver habilidades sociais, emocionais e cognitivas. Além disso, busco sempre orientar as famílias e responsáveis sobre como lidar com as dificuldades enfrentadas, e como ajudá-los a superá-las.              </p>
               <p>
-                Meu objetivo é oferecer um atendimento de qualidade e efetivo, que ajude as crianças a alcançarem seu potencial máximo e viverem uma vida mais plena e feliz. Entre em contato comigo para saber mais sobre o meu trabalho e como posso ajudar você e sua família. Estou sempre pronta para atender às suas necessidades e auxiliar no desenvolvimento saudável de suas crianças.
-              </p>
+                
+Meu objetivo é oferecer um atendimento de qualidade e efetivo, que ajude as crianças e adolescentes a alcançarem seu potencial máximo e viverem uma vida mais plena e feliz. Entre em contato comigo para saber mais sobre o meu trabalho e como posso ajudar você e sua família. Estou sempre pronta para atender às suas necessidades e auxiliar no desenvolvimento saudável de suas crianças e adolescentes.              </p>
 
             </div>
           </div>
